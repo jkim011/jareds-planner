@@ -18,6 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -30,52 +31,69 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-      <div class="input-group mb-3">
-        <span class="hour time-block" style="width: 7rem;">9AM</span>
-        <input type="text" class="row form-control" aria-label="Event" aria-describedby="button-addon1">
-        <button class="saveBtn" type="button" id="button-addon1">Save</button>
+      <div class="time-block input-group">
+        <span class="hour" style="width: 6rem; padding-top: 30px;">9AM</span>
+        <textarea class="row" style="width: 59rem;"></textarea>
+        <button class="saveBtn" style="width: 5rem; margin-left: 15px; border-top: none; border-bottom: none; border-right: none;">
+          <span class="material-symbols-outlined" style="font-size: 20px;"><i>add_task</i></span>
+        </button>
       </div>
-      <div class="input-group mb-3">
-        <span class="hour time-block" style="width: 7rem;">10AM</span>
-        <input type="text" class="row form-control" aria-label="Event" aria-describedby="button-addon2">
-        <button class="saveBtn" type="button" id="button-addon2">Save</button>
+      <div class="time-block input-group">
+        <span class="hour" style="width: 6rem; padding-top: 30px;">10AM</span>
+        <textarea class="row" style="width: 59rem;"></textarea>
+        <button class="saveBtn" style="width: 5rem; margin-left: 15px; border-top: none; border-bottom: none; border-right: none;">
+          <span class="material-symbols-outlined" style="font-size: 20px;"><i>add_task</i></span>
+        </button>
+      </div>   
+      <div class="time-block input-group">
+        <span class="hour" style="width: 6rem; padding-top: 30px;">11AM</span>
+        <textarea class="row" style="width: 59rem;"></textarea>
+        <button class="saveBtn" style="width: 5rem; margin-left: 15px; border-top: none; border-bottom: none; border-right: none;">
+          <span class="material-symbols-outlined" style="font-size: 20px;"><i>add_task</i></span>
+        </button>
       </div>
-      <div class="input-group mb-3">
-        <span class="input-group-text">11AM</span>
-        <input type="text" class="form-control" aria-label="Event" aria-describedby="button-addon3">
-        <button class="saveBtn" type="button" id="button-addon3">Save</button>
+      <div class="time-block input-group">
+        <span class="hour" style="width: 6rem; padding-top: 30px;">12PM</span>
+        <textarea class="row" style="width: 59rem;"></textarea>
+        <button class="saveBtn" style="width: 5rem; margin-left: 15px; border-top: none; border-bottom: none; border-right: none;">
+          <span class="material-symbols-outlined" style="font-size: 20px;"><i>add_task</i></span>
+        </button>
       </div>
-      <div class="input-group mb-3">
-        <span class="input-group-text">12PM</span>
-        <input type="text" class="form-control" aria-label="Event" aria-describedby="button-addon4">
-        <button class="saveBtn" type="button" id="button-addon4">Save</button>
+      <div class="time-block input-group">
+        <span class="hour" style="width: 6rem; padding-top: 30px;">1PM</span>
+        <textarea class="row" style="width: 59rem;"></textarea>
+        <button class="saveBtn" style="width: 5rem; margin-left: 15px; border-top: none; border-bottom: none; border-right: none;">
+          <span class="material-symbols-outlined" style="font-size: 20px;"><i>add_task</i></span>
+        </button>
       </div>
-      <div class="input-group mb-3">
-        <span class="input-group-text">1PM</span>
-        <input type="text" class="form-control" aria-label="Event" aria-describedby="button-addon5">
-        <button class="saveBtn" type="button" id="button-addon5">Save</button>
+      <div class="time-block input-group">
+        <span class="hour" style="width: 6rem; padding-top: 30px;">2PM</span>
+        <textarea class="row" style="width: 59rem;"></textarea>
+        <button class="saveBtn" style="width: 5rem; margin-left: 15px; border-top: none; border-bottom: none; border-right: none;">
+          <span class="material-symbols-outlined" style="font-size: 20px;"><i>add_task</i></span>
+        </button>
       </div>
-      <div class="input-group mb-3">
-        <span class="input-group-text">2PM</span>
-        <input type="text" class="form-control" aria-label="Event" aria-describedby="button-addon6">
-        <button class="saveBtn" type="button" id="button-addon6">Save</button>
+      <div class="time-block input-group">
+        <span class="hour" style="width: 6rem; padding-top: 30px;">3PM</span>
+        <textarea class="row" style="width: 59rem;"></textarea>
+        <button class="saveBtn" style="width: 5rem; margin-left: 15px; border-top: none; border-bottom: none; border-right: none;">
+          <span class="material-symbols-outlined" style="font-size: 20px;"><i>add_task</i></span>
+        </button>
       </div>
-      <div class="input-group mb-3">
-        <span class="input-group-text">3PM</span>
-        <input type="text" class="form-control" aria-label="Event" aria-describedby="button-addon7">
-        <button class="saveBtn" type="button" id="button-addon7">Save</button>
+      <div class="time-block input-group">
+        <span class="hour" style="width: 6rem; padding-top: 30px;">4PM</span>
+        <textarea class="row" style="width: 59rem;"></textarea>
+        <button class="saveBtn" style="width: 5rem; margin-left: 15px; border-top: none; border-bottom: none; border-right: none;">
+          <span class="material-symbols-outlined" style="font-size: 20px;"><i>add_task</i></span>
+        </button>
       </div>
-      <div class="input-group mb-3">
-        <span class="input-group-text">4PM</span>
-        <input type="text" class="form-control" aria-label="Event" aria-describedby="button-addon8">
-        <button class="saveBtn" type="button" id="button-addon8">Save</button>
+      <div class="time-block input-group">
+        <span class="hour" style="width: 6rem; padding-top: 30px;">5PM</span>
+        <textarea class="row" style="width: 59rem;"></textarea>
+        <button class="saveBtn" style="width: 5rem; margin-left: 15px; border-top: none; border-bottom: none; border-right: none;">
+          <span class="material-symbols-outlined" style="font-size: 20px;"><i>add_task</i></span>
+        </button>
       </div>
-      <div class="input-group mb-3">
-        <span class="input-group-text">5PM</span>
-        <input type="text" class="form-control" aria-label="Event" aria-describedby="button-addon9">
-        <button class="saveBtn" type="button" id="button-addon9">Save</button>
-      </div>
-    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>

@@ -27,7 +27,8 @@ textarea{
 
 .time-block{
   text-align: center;
-  border-radius: 15px;
+  /* border-radius: 15px; */
+  margin-top: 1px;  /*added myself */
 }
 
 .row {
@@ -66,6 +67,6 @@ textarea{
 }
 
 .saveBtn i:hover {
-  font-size: 20px;
+  font-size: 25px;
   transition: all .3s ease-in-out;
 }

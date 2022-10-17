@@ -27,8 +27,7 @@ textarea{
 
 .time-block{
   text-align: center;
-  /* border-radius: 15px; */
-  margin-top: 1px;  /*added myself */
+  border-radius: 15px;
 }
 
 .row {

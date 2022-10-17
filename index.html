@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /> -->
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -29,71 +29,58 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+
     <div class="container">
       <!-- Timeblocks go here -->
-      <div class="time-block input-group">
-        <span class="hour" style="width: 6rem; padding-top: 30px;">9AM</span>
-        <textarea class="row" style="width: 59rem;"></textarea>
-        <button class="saveBtn" style="width: 5rem; margin-left: 15px; border-top: none; border-bottom: none; border-right: none;">
-          <span class="material-symbols-outlined" style="font-size: 20px;"><i>add_task</i></span>
-        </button>
+      <div id="9am" class="row time-block">
+        <div class="col-md-1 hour" style="padding-top: 30px;">9AM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="col-md-1 btn saveBtn"><i class="fas fa-save"></i></button>
+      </div>  
+      <div id="10am" class="row time-block">
+        <div class="col-md-1 hour" style="padding-top: 30px;">10AM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="col-md-1 btn saveBtn"><i class="fas fa-save"></i></button>
       </div>
-      <div class="time-block input-group">
-        <span class="hour" style="width: 6rem; padding-top: 30px;">10AM</span>
-        <textarea class="row" style="width: 59rem;"></textarea>
-        <button class="saveBtn" style="width: 5rem; margin-left: 15px; border-top: none; border-bottom: none; border-right: none;">
-          <span class="material-symbols-outlined" style="font-size: 20px;"><i>add_task</i></span>
-        </button>
-      </div>   
-      <div class="time-block input-group">
-        <span class="hour" style="width: 6rem; padding-top: 30px;">11AM</span>
-        <textarea class="row" style="width: 59rem;"></textarea>
-        <button class="saveBtn" style="width: 5rem; margin-left: 15px; border-top: none; border-bottom: none; border-right: none;">
-          <span class="material-symbols-outlined" style="font-size: 20px;"><i>add_task</i></span>
-        </button>
+      <div id="11am" class="row time-block">
+        <div class="col-md-1 hour" style="padding-top: 30px;">11AM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="col-md-1 btn saveBtn"><i class="fas fa-save"></i></button>
       </div>
-      <div class="time-block input-group">
-        <span class="hour" style="width: 6rem; padding-top: 30px;">12PM</span>
-        <textarea class="row" style="width: 59rem;"></textarea>
-        <button class="saveBtn" style="width: 5rem; margin-left: 15px; border-top: none; border-bottom: none; border-right: none;">
-          <span class="material-symbols-outlined" style="font-size: 20px;"><i>add_task</i></span>
-        </button>
+      <div id="12pm" class="row time-block">
+        <div class="col-md-1 hour" style="padding-top: 30px;">12PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="col-md-1 btn saveBtn"><i class="fas fa-save"></i></button>
       </div>
-      <div class="time-block input-group">
-        <span class="hour" style="width: 6rem; padding-top: 30px;">1PM</span>
-        <textarea class="row" style="width: 59rem;"></textarea>
-        <button class="saveBtn" style="width: 5rem; margin-left: 15px; border-top: none; border-bottom: none; border-right: none;">
-          <span class="material-symbols-outlined" style="font-size: 20px;"><i>add_task</i></span>
-        </button>
+      <div id="1pm" class="row time-block">
+        <div class="col-md-1 hour" style="padding-top: 30px;">1PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="col-md-1 btn saveBtn"><i class="fas fa-save"></i></button>
       </div>
-      <div class="time-block input-group">
-        <span class="hour" style="width: 6rem; padding-top: 30px;">2PM</span>
-        <textarea class="row" style="width: 59rem;"></textarea>
-        <button class="saveBtn" style="width: 5rem; margin-left: 15px; border-top: none; border-bottom: none; border-right: none;">
-          <span class="material-symbols-outlined" style="font-size: 20px;"><i>add_task</i></span>
-        </button>
+      <div id="2pm" class="row time-block">
+        <div class="col-md-1 hour" style="padding-top: 30px;">2PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="col-md-1 btn saveBtn"><i class="fas fa-save"></i></button>
       </div>
-      <div class="time-block input-group">
-        <span class="hour" style="width: 6rem; padding-top: 30px;">3PM</span>
-        <textarea class="row" style="width: 59rem;"></textarea>
-        <button class="saveBtn" style="width: 5rem; margin-left: 15px; border-top: none; border-bottom: none; border-right: none;">
-          <span class="material-symbols-outlined" style="font-size: 20px;"><i>add_task</i></span>
-        </button>
+      <div id="3pm" class="row time-block">
+        <div class="col-md-1 hour" style="padding-top: 30px;">3PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="col-md-1 btn saveBtn"><i class="fas fa-save"></i></button>
       </div>
-      <div class="time-block input-group">
-        <span class="hour" style="width: 6rem; padding-top: 30px;">4PM</span>
-        <textarea class="row" style="width: 59rem;"></textarea>
-        <button class="saveBtn" style="width: 5rem; margin-left: 15px; border-top: none; border-bottom: none; border-right: none;">
-          <span class="material-symbols-outlined" style="font-size: 20px;"><i>add_task</i></span>
-        </button>
+      <div id="4pm" class="row time-block">
+        <div class="col-md-1 hour" style="padding-top: 30px;">4PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="col-md-1 btn saveBtn"><i class="fas fa-save"></i></button>
       </div>
-      <div class="time-block input-group">
-        <span class="hour" style="width: 6rem; padding-top: 30px;">5PM</span>
-        <textarea class="row" style="width: 59rem;"></textarea>
-        <button class="saveBtn" style="width: 5rem; margin-left: 15px; border-top: none; border-bottom: none; border-right: none;">
-          <span class="material-symbols-outlined" style="font-size: 20px;"><i>add_task</i></span>
-        </button>
+      <div id="5pm" class="row time-block">
+        <div class="col-md-1 hour" style="padding-top: 30px;">5PM</div>
+        <textarea class="col-md-10 description"></textarea>
+        <button class="col-md-1 btn saveBtn"><i class="fas fa-save"></i></button>
       </div>
+    </div>
+      
+
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>

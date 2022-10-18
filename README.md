@@ -9,5 +9,5 @@ This application is a work day scheduler that is used to plan out your day. On t
 n/a
 
 ## Usage 
-![](./module5challenge.png) <br>
+![](./module5challenge.PNG) <br>
 **Deploy application** https://jkim011.github.io/jareds-planner/

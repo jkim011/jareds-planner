@@ -12,9 +12,6 @@ $(document).ready(function(){
     updateDay()
     setInterval(updateDay, 1000)
 })
-// var currentDay = moment().format("dddd MMM Do, YYYY")
-// $("#currentDay").html(currentDay)
-
 
 $(document).ready(function(){
     //Change timeblock color based on time
